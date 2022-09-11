@@ -18,6 +18,7 @@
 
 
 ## Use Case
+- User dapat melakukan register dan login.
 - User dapat membuat, menghapus, dan mengupdate postingan rute angkutan umum.
 - User dapat melihat postingan rute angkutan umum.
 - User dapat membagikan postingan.
@@ -46,6 +47,12 @@ content|Text|Penjelasan Rutenya
 
 
 ## UI/UX Wireframe
+
+### Register
+<img width="656" alt="wireframe" src="https://user-images.githubusercontent.com/106642549/189537766-1372b60c-f2b7-489b-b7e3-aebd5e1bd6ad.png">
+
+### Login
+<img width="656" alt="wireframe" src="https://user-images.githubusercontent.com/106642549/189537773-8fa4b3b5-4b4c-46fc-a41d-9796d03498e6.png">
 
 ### Halaman Post
 <img width="656" alt="wireframe" src="https://user-images.githubusercontent.com/106642549/189516660-d09180c6-93f7-4e2d-b54b-c7b1e62aaa5c.png">
