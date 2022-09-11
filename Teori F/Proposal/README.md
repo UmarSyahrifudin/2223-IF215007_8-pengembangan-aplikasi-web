@@ -18,8 +18,8 @@
 
 
 ## Use Case
-- User dapat memposting rute angkutan umum.
-- User dapat melihat postingan mengenai rute angkutan umum.
+- User dapat membuat, menghapus, dan mengupdate postingan rute angkutan umum.
+- User dapat melihat postingan rute angkutan umum.
 - User dapat membagikan postingan.
 - User dapat mengomentari postingan.
 - User dapat mencari rute angkutan umum.
@@ -31,17 +31,18 @@
 ### User
 Atribut|Tipe Data|Contoh
 ---|---|---
-Id|int|001
-Username|String|Dracule Mihawk
-Password|String|Takanome1997
+id|int|001
+username|String|Dracule Mihawk
+password|String|Takanome1997
 
 ### Post
 Atribut|Tipe Data|Contoh
 ---|---|---
-Id |int|001
-Author|String|Dracule Mihawk
-Judul|Varchar|Rute Menuju PVJ dari Cibiru Via Angkot
-Content|Text|Penjelasan Rutenya
+id |int|001
+author|String|Dracule Mihawk
+created_at|Date|11/09/2022
+judul|Varchar|Rute Menuju PVJ dari Cibiru Via Angkot
+content|Text|Penjelasan Rutenya
 
 
 ## UI/UX Wireframe
