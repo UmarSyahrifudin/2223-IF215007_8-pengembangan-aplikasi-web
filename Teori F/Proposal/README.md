@@ -36,7 +36,7 @@ id|int|001
 username|String|Dracule Mihawk
 password|String|Takanome1997
 
-### Post
+### Posts
 Atribut|Tipe Data|Contoh
 ---|---|---
 id |int|001
