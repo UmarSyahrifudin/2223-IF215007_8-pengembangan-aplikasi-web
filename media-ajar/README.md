@@ -15,6 +15,6 @@
 - Teknologi Pendukung Untuk Pengembangan Website : https://youtu.be/Rs2DocorRQU
 - Web Service : https://youtu.be/c1BrNmSufKU
 - Cloud Service : https://youtu.be/uA7Bf7Ux1Xk
-- Web Application Security : 
-- Alur Proyek Pengembangan Aplikasi Web :
-- Pekerjaan Untuk Pengembangan Aplikasi Web :
+- Web Application Security : https://youtu.be/_tPINgUxywk
+- Alur Proyek Pengembangan Aplikasi Web : https://youtu.be/QDW8U3qPvVQ
+- Pekerjaan Untuk Pengembangan Aplikasi Web : https://youtu.be/nZvf5JHEcsc
