@@ -4,14 +4,17 @@
 ## NIM           : 1207050136
 ## kelas         : IF F
 ## Link Playlist : https://youtube.com/playlist?list=PL6KobHp2qZyRNtZ4kYQtMHjYwi2F1o8Sa
-- 1. Komunikasi Digital : 
-- 2. Browser & Web Page
-- 3. Server :
-- 4. Lokasi Data :
-- 5. World Wide Web :
-- 6. Teknologi Pendukung Untuk Pengembangan Website :
-- 7. Web Service :
-- 8. 
-- 9. 
-- 10. Alur Proyek Pengembangan Aplikasi Web :
-- 11. Pekerjaan Untuk Pengembangan Aplikasi Web :
+
+##
+
+- Komunikasi Digital : https://youtu.be/hxFi5I3ePds
+- Browser & Web Page : https://youtu.be/Kmnomu_aIzA
+- Server : https://youtu.be/sD40f4Fh5is
+- Lokasi Data : https://youtu.be/USE2Duy31LQ
+- World Wide Web : https://youtu.be/_8vvlJvCPYA
+- Teknologi Pendukung Untuk Pengembangan Website : https://youtu.be/Rs2DocorRQU
+- Web Service : https://youtu.be/c1BrNmSufKU
+- Cloud Service : https://youtu.be/uA7Bf7Ux1Xk
+- Web Application Security : 
+- Alur Proyek Pengembangan Aplikasi Web :
+- Pekerjaan Untuk Pengembangan Aplikasi Web :
