@@ -56,7 +56,7 @@ app.get('/rute', (req, res) => {
   })
 
 
-// Hapus Rute
+// Update Rute
   app.put('/rute/:id', (req, res) => {
      res.json(
          {
