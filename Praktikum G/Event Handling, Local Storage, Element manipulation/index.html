@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="asset/css/style.css" />
+  </head>
+  <body>
+    <!-- 
+      - Document Selection (Memilih elemen HTML via JS)
+      - Event Handling (Bagaimana elemen html merespon kejadian)
+      - Menyimpan dan Mengambil Data
+        - Internal : via LocalStorage
+        - Eksternal / alamat lain : via Fetch API
+     -->
+
+    <div id="form-isian">
+      <form>
+        <input name="nama" placeholder="Nama mahasiswa" />
+        <input name="nim" placeholder="NIM" />
+        <select name="jurusan">
+          <option value="Teknik Informatika">Teknik Informatika</option>
+          <option value="Teknik Elektro">Teknik Elektro</option>
+          <option value="Fisika">Fisika</option>
+        </select>
+        <button id="submit">Submit</button>
+      </form>
+    </div>
+    <div id="tabel-output">
+      <table border="2">
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Nama</th>
+            <th>NIM</th>
+            <th>Jurusan</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <script>
+      // 1. Ambil data dari setiap input
+      // 2. Ketika tombol Submit ditekan, masukkan data ke localStorage
+      // 3. Tampilkan data dari localStorage di tabel
+
+      // Menyimpan di localStorage:
+      // 1. Ubah objek js jadi string pake JSON.stringify(text)
+      // 2. localStorage.setItem("kataKunci", objekString)
+
+      // Mengambil dari localStorage:
+      // 3. localStorage.getItem("kataKunci")
+      // 4. hasil get yg berupa string, dijadikan object array kembali dengan JSON.parse(text)
+
+      tampilkanDataDariLocalStorage();
+      // EVENT
+
+      // memilih elemen Button yang id nya "submit"
+      const elButtonSubmit = document.getElementById("submit");
+
+      // isi properti onclick dari elemen html ini, isinya object function penanganan event
+      elButtonSubmit.onclick = function (objekKejadianNgeklik) {
+        objekKejadianNgeklik.preventDefault(); // prevent button from refreshing the page
+
+        // ambil nilai variabel dari form isian
+        const elInputNama = document.getElementsByName("nama")[0];
+        const nama = elInputNama.value;
+        // const nama = document.getElementsByName("nama")[0].value;
+
+        const elInputNIM = document.getElementsByName("nim")[0];
+        const nim = elInputNIM.value;
+
+        const elSelectJurusan = document.getElementsByName("jurusan")[0];
+        const jurusan = elSelectJurusan.value;
+
+        const dataIsian = {
+          nama: nama,
+          nim: nim,
+          jurusan: jurusan,
+        };
+
+        const arrayDataIsianString = localStorage.getItem(
+          "arrayDataIsianString"
+        );
+
+        let arrayDataIsian = [];
+        console.log(arrayDataIsian);
+        // Jika arrayDataIsianString ada isinya / tidak kosong
+        if (arrayDataIsianString !== null) {
+          // isi variabel arrayDataIsian dengan arrayDataIsian dari localStorage
+          arrayDataIsian = JSON.parse(arrayDataIsianString);
+        }
+
+        console.log("arrayData Isian sebelum", arrayDataIsian);
+
+        arrayDataIsian.push(dataIsian);
+
+        // console.log("arrayData Isian sebelum", arrayDataIsian);
+
+        localStorage.setItem(
+          "arrayDataIsianString",
+          JSON.stringify(arrayDataIsian)
+        );
+
+        tampilkanDataDariLocalStorage();
+      };
+
+      function tampilkanDataDariLocalStorage() {
+        const arrayDataIsianString = localStorage.getItem(
+          "arrayDataIsianString"
+        );
+
+        let arrayDataIsian = [];
+        console.log(arrayDataIsian);
+        // Jika arrayDataIsianString ada isinya / tidak kosong
+        if (arrayDataIsianString !== null) {
+          // isi variabel arrayDataIsian dengan arrayDataIsian dari localStorage
+          arrayDataIsian = JSON.parse(arrayDataIsianString);
+        }
+
+        const elTbodyTabelOutput = document.querySelector(
+          "#tabel-output table tbody"
+        );
+
+        elTbodyTabelOutput.innerHTML = ``;
+        arrayDataIsian.forEach((dataIsian, urutanKe) => {
+          console.log(dataIsian);
+          elTbodyTabelOutput.innerHTML += `
+            <tr>
+              <td>${urutanKe + 1}</td>
+              <td>${dataIsian.nama}</td>
+              <td>${dataIsian.nim}</td>
+              <td>${dataIsian.jurusan}</td>
+            </tr>
+          `;
+        });
+        // console.log(elTbodyTabelOutput);
+      }
+    </script>
+  </body>
+</html>
