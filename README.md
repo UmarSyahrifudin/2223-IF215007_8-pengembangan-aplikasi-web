@@ -2,4 +2,5 @@
 
 ## Nama   : Umar Syahrifudin
 ## NIM    : 1207050136
-## Kelas  : Teori F & Praktikum G
+## Kelas  : Teori F & Praktikum H
+
