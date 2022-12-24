@@ -67,5 +67,10 @@
 ![image](https://user-images.githubusercontent.com/106642549/209366729-52a2248e-1d0d-4b10-a57d-cdf3c7daee0c.png)
 
 ## Demo : Dynamic Web Page using Laravel	(9)
+![Screenshot (473)](https://user-images.githubusercontent.com/106642549/209414447-c18f06b8-b05f-4a8e-ab54-18ecba695150.png)
+![Screenshot (470)](https://user-images.githubusercontent.com/106642549/209414455-8fcc53d2-e534-484c-8e22-153ab11f9893.png)
+![Screenshot (471)](https://user-images.githubusercontent.com/106642549/209414457-b50750cd-d6e5-4c9e-98b1-85318478c6c9.png)
+![Screenshot (472)](https://user-images.githubusercontent.com/106642549/209414463-e61bddb1-ff28-464f-a5aa-7acb6901e0f5.png)
+
 ## Demo : Web Service using Slim	(6)
 ## Demo : News Site using Wordpress	(5)
