@@ -41,6 +41,9 @@
 ![Screenshot (477)](https://user-images.githubusercontent.com/106642549/209457926-4528fe31-ff3a-45c8-a583-4f3321e88e9f.png)
 
 ## Demo : Nginx / Apache web server installation & operation	(5)
+![Screenshot (479)](https://user-images.githubusercontent.com/106642549/209751498-c9fdd503-3648-4525-b846-f234ef98dbf1.png)
+
+
 ## Demo : Cpanel operation	(4)
 ## Demo : Domain registration	(1)
 
@@ -75,6 +78,8 @@
 
 
 ## Demo : OOP-based PHP Project using Composer	(4)
+![Screenshot (478)](https://user-images.githubusercontent.com/106642549/209747292-1077f8b2-767c-4d59-967e-019c2e1b159d.png)
+
 
 ## Demo : Deploy PHP Project to Cpanel	(4)
 
