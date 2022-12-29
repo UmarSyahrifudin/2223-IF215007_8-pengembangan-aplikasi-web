@@ -46,6 +46,8 @@
 
 ## Demo : Cpanel operation	(4)
 ## Demo : Domain registration	(1)
+![Screenshot (485)](https://user-images.githubusercontent.com/106642549/209971125-7289b82e-8b97-41db-80ee-c73c5a2b3056.png)
+
 
 ## Demo : HTML Responsive Layout with Media Query & Flexbox	(3)
 - Tampilan Desktop
@@ -100,3 +102,21 @@
 
 ## Demo : Web Service using Slim	(6)
 ## Demo : News Site using Wordpress	(5)
+- Buat Nama Domain
+- ![Screenshot (486)](https://user-images.githubusercontent.com/106642549/209971552-b991af95-9ca5-41f8-8f62-9a56f5a1b2b9.png)
+
+- Setelah itu akan masuk ke dashboard
+- ![Screenshot (482)](https://user-images.githubusercontent.com/106642549/209971587-ac71904c-1238-4434-aff0-eddae02c4d82.png)
+
+- Pilih menu appearance lalu pilih themes
+- ![Screenshot (483)](https://user-images.githubusercontent.com/106642549/209971631-957d3b54-880e-4047-9651-ee44d556cc28.png)
+
+- Cari tema tentang News. Pilih tema dan download
+- ![Screenshot (487)](https://user-images.githubusercontent.com/106642549/209971671-e5dfe9ab-621c-46f7-9bfb-525c000b6a1e.png)
+
+- Lalu untuk menerapkan tema, klik new theme
+- ![Screenshot (488)](https://user-images.githubusercontent.com/106642549/209971714-410974c3-9f7a-4e4f-9c8b-17c69f84642d.png)
+
+- Upload tema yang telah di download sebelumnya
+- ![Screenshot (489)](https://user-images.githubusercontent.com/106642549/209971814-8067622f-f4e6-4b29-aaa6-346240db2bf4.png)
+
